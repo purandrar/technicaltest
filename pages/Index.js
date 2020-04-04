@@ -5,38 +5,28 @@ import NewsSection from '../components/NewsSection'
 
 const Index = props => (
     <Layout>
-        <h1>Headline</h1>
-        <NewsSection articles={props.newsUs} />
-        <NewsSection articles={props.newsUs} />
+        <NewsSection headline={props.headlineUs} articles={props.newsUs} />
+        <NewsSection headline={props.headlineId} articles={props.newsId} />
+        <NewsSection headline={props.headlineSg} articles={props.newsSg} />
     </Layout>
 );
 
 Index.getInitialProps = async function () {
-    const res = await fetch('http://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=72aa24ac8bbf4a1aa302891fbde1d0ac');
-    const data = await res.json();
-    const newsUs = data.articles.slice(0, 8)
-    console.log(`Show data fetched. Count: ${newsUs.length}`);
-
+    const resId = await fetch('http://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=72aa24ac8bbf4a1aa302891fbde1d0ac');
+    const resUs = await fetch('http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=72aa24ac8bbf4a1aa302891fbde1d0ac');
+    const resSg = await fetch('http://newsapi.org/v2/top-headlines?country=sg&category=business&apiKey=72aa24ac8bbf4a1aa302891fbde1d0ac');
+    const dataId = await resId.json();
+    const dataUs = await resUs.json();
+    const dataSg = await resSg.json();
+    const newsId = dataId.articles.slice(1, 8)
+    const newsUs = dataUs.articles.slice(1, 8)
+    const newsSg = dataSg.articles.slice(1, 8)
     return {
-        newsUs
+        headlineUs: dataUs.articles[0],
+        headlineId: dataId.articles[0],
+        headlineSg: dataSg.articles[0],
+        newsUs,
+        newsId,
+        newsSg,
     };
 };
-
-export default Index;
-// export default function Index(props) {
-//     return (
-//         <Layout>
-//             <h1>Batman TV Shows</h1>
-//             <ul>
-//                 {props.shows.map(show => (
-//                     <li key={show.id}>
-//                         <Link href="/p/[id]" as={`/p/${show.id}`}>
-//                             <a>{show.name}</a>
-//                         </Link>
-//                     </li>
-//                 ))}
-//             </ul>
-//             {/* <p>Hello Next.js</p> */}
-//         </Layout>
-//     )
-// }
