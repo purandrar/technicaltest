@@ -93,6 +93,77 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return footer; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/purandrar/Documents/excercise/technicaltest/components/Footer.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const layoutStyle = {
+  backgroundColor: '#BAF2D7',
+  height: "100px",
+  display: "flex",
+  justifyContent: "center"
+};
+function footer() {
+  return __jsx("div", {
+    style: layoutStyle,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 21
+    }
+  }, __jsx("h1", {
+    style: {
+      height: "100px",
+      display: "flex",
+      alignItems: "center"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 25
+    }
+  }, "halo")))));
+}
+
+/***/ }),
+
 /***/ "./components/Header.js":
 /*!******************************!*\
   !*** ./components/Header.js ***!
@@ -118,138 +189,90 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function Header() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
-    collapseOnSelect: true,
-    expand: "lg",
-    bg: "dark",
-    variant: "dark",
+  return __jsx("div", {
+    style: {
+      backgroundColor: " #D7F2E5"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
       columnNumber: 13
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Brand, {
-    href: "#home",
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
       columnNumber: 17
     }
-  }, "React-Bootstrap"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Toggle, {
-    "aria-controls": "responsive-navbar-nav",
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 17
+      columnNumber: 21
     }
-  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Collapse, {
-    id: "responsive-navbar-nav",
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
+    style: {
+      height: "120px",
+      display: "flex",
+      alignItems: "flex-end"
+    },
+    collapseOnSelect: true,
+    expand: "lg",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
-      columnNumber: 17
+      columnNumber: 25
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
-    className: "mr-auto",
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    passHref: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 21
+      columnNumber: 29
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "#features",
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Brand, {
+    style: {
+      fontSize: "25px"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 53
+    }
+  }, "Business")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/techPage",
+    passHref: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 25
-    }
-  }, "Features"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "#pricing",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 25
-    }
-  }, "Pricing"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NavDropdown"], {
-    title: "Dropdown",
-    id: "collasible-nav-dropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 25
-    }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NavDropdown"].Item, {
-    href: "#action/3.1",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
       columnNumber: 29
     }
-  }, "Action"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NavDropdown"].Item, {
-    href: "#action/3.2",
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Brand, {
+    style: {
+      fontSize: "25px"
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 29
+      lineNumber: 13,
+      columnNumber: 61
     }
-  }, "Another action"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NavDropdown"].Item, {
-    href: "#action/3.3",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 29
-    }
-  }, "Something"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NavDropdown"].Divider, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 29
-    }
-  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NavDropdown"].Item, {
-    href: "#action/3.4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 29
-    }
-  }, "Separated link"))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 21
-    }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "#deets",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 25
-    }
-  }, "More deets"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    eventKey: 2,
-    href: "#memes",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 25
-    }
-  }, "Dank memes")))));
+  }, "Technology")))))));
 }
 
 /***/ }),
@@ -282,7 +305,7 @@ function Headline({
     href: headline.url,
     target: "_blank",
     style: {
-      textDecoration: "none"
+      color: "black"
     },
     __self: this,
     __source: {
@@ -290,19 +313,12 @@ function Headline({
       lineNumber: 6,
       columnNumber: 9
     }
-  }, __jsx("h5", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 13
-    }
-  }, headline.title.split("-")[0]), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
     className: "bg-dark text-white",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 7,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Img, {
@@ -311,17 +327,27 @@ function Headline({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 17
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].ImgOverlay, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 17
     }
-  })));
+  })), __jsx("h5", {
+    style: {
+      textAlign: "center"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 13
+    }
+  }, headline.title.split("-")[0]));
 }
 
 /***/ }),
@@ -329,6 +355,267 @@ function Headline({
 /***/ "./components/NewsCard.js":
 /*!********************************!*\
   !*** ./components/NewsCard.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return NewsCard; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/purandrar/Documents/excercise/technicaltest/components/NewsCard.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+function NewsCard({
+  article
+}) {
+  return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    lg: 3,
+    sm: 6,
+    md: 4,
+    xs: 12,
+    style: {
+      marginTop: "20px",
+      display: "flex",
+      justifyContent: "center"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 9
+    }
+  }, __jsx("a", {
+    href: article.url,
+    target: "_blank",
+    style: {
+      color: "black"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+    border: "info",
+    style: {
+      height: "100%",
+      width: '18rem'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Img, {
+    style: {
+      height: '150px',
+      width: "100%"
+    },
+    variant: "top",
+    src: article.urlToImage,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 21
+    }
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Body, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 21
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Text, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 25
+    }
+  }, article.title.split("-")[0])))));
+}
+
+/***/ }),
+
+/***/ "./components/NewsCarousel.js":
+/*!************************************!*\
+  !*** ./components/NewsCarousel.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return NewsCarousel; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/purandrar/Documents/excercise/technicaltest/components/NewsCarousel.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+function NewsCarousel({
+  articles
+}) {
+  return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Carousel"], {
+    style: {
+      marginBottom: "20px"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 9
+    }
+  }, articles.map(article => __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Carousel"].Item, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    href: article.url,
+    target: "_blank",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    style: {
+      height: "500px"
+    },
+    className: "d-block w-100",
+    src: article.urlToImage,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 25
+    }
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Carousel"].Caption, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 25
+    }
+  }, __jsx("h3", {
+    style: {
+      color: "black"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 29
+    }
+  }, article.title))))));
+}
+
+/***/ }),
+
+/***/ "./components/NewsDeck.js":
+/*!********************************!*\
+  !*** ./components/NewsDeck.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return NewsDeck; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _NewsCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NewsCard */ "./components/NewsCard.js");
+var _jsxFileName = "/Users/purandrar/Documents/excercise/technicaltest/components/NewsDeck.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+function NewsDeck({
+  country,
+  articles
+}) {
+  return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      paddingLeft: "20px",
+      paddingTop: "20px"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 17
+    }
+  }, __jsx("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 21
+    }
+  }, " ", country))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 13
+    }
+  }, articles.map(article => __jsx(_NewsCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    article: article,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 21
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./components/NewsList.js":
+/*!********************************!*\
+  !*** ./components/NewsList.js ***!
   \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -344,7 +631,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/purandrar/Documents/excercise/technicaltest/components/NewsCard.js";
+var _jsxFileName = "/Users/purandrar/Documents/excercise/technicaltest/components/NewsList.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -361,7 +648,7 @@ function NewsCard({
       columnNumber: 13
     }
   }, __jsx("li", {
-    className: "jsx-1511977710",
+    className: "jsx-1521233896",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -371,7 +658,10 @@ function NewsCard({
   }, __jsx("a", {
     href: article.url,
     target: "_blank",
-    className: "jsx-1511977710",
+    style: {
+      color: "black"
+    },
+    className: "jsx-1521233896",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -379,9 +669,9 @@ function NewsCard({
       columnNumber: 21
     }
   }, article.title.split("-")[0]))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1511977710",
+    id: "1521233896",
     __self: this
-  }, "li.jsx-1511977710{font-size:12px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9wdXJhbmRyYXIvRG9jdW1lbnRzL2V4Y2VyY2lzZS90ZWNobmljYWx0ZXN0L2NvbXBvbmVudHMvTmV3c0NhcmQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYTJCLEFBSWdCLGVBQUMiLCJmaWxlIjoiL1VzZXJzL3B1cmFuZHJhci9Eb2N1bWVudHMvZXhjZXJjaXNlL3RlY2huaWNhbHRlc3QvY29tcG9uZW50cy9OZXdzQ2FyZC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcbmltcG9ydCB7IFJvdywgQ2FyZCwgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xuaW1wb3J0ICdib290c3RyYXAvZGlzdC9jc3MvYm9vdHN0cmFwLm1pbi5jc3MnO1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTmV3c0NhcmQoeyBhcnRpY2xlIH0pIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8PlxuICAgICAgICAgICAgPENvbD5cbiAgICAgICAgICAgICAgICA8bGk+XG4gICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9e2FydGljbGUudXJsfSB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIHthcnRpY2xlLnRpdGxlLnNwbGl0KFwiLVwiKVswXX1cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgIDwgc3R5bGUganN4ID4ge2BcbiAgICAgICAgICAgICAgICBsaXtcbiAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOjEycHhcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICBgfSA8L3N0eWxlID5cbiAgICAgICAgPC8+XG4gICAgKVxuXG59XG4iXX0= */\n/*@ sourceURL=/Users/purandrar/Documents/excercise/technicaltest/components/NewsCard.js */"));
+  }, "li.jsx-1521233896{font-size:12px color:\"black\";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9wdXJhbmRyYXIvRG9jdW1lbnRzL2V4Y2VyY2lzZS90ZWNobmljYWx0ZXN0L2NvbXBvbmVudHMvTmV3c0xpc3QuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYTJCLEFBS2dCLDZCQUFDIiwiZmlsZSI6Ii9Vc2Vycy9wdXJhbmRyYXIvRG9jdW1lbnRzL2V4Y2VyY2lzZS90ZWNobmljYWx0ZXN0L2NvbXBvbmVudHMvTmV3c0xpc3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgeyBSb3csIENhcmQsIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcbmltcG9ydCAnYm9vdHN0cmFwL2Rpc3QvY3NzL2Jvb3RzdHJhcC5taW4uY3NzJztcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE5ld3NDYXJkKHsgYXJ0aWNsZSB9KSB7XG4gICAgcmV0dXJuIChcbiAgICAgICAgPD5cbiAgICAgICAgICAgIDxDb2w+XG4gICAgICAgICAgICAgICAgPGxpPlxuICAgICAgICAgICAgICAgICAgICA8YSBocmVmPXthcnRpY2xlLnVybH0gdGFyZ2V0PVwiX2JsYW5rXCIgc3R5bGU9e3sgY29sb3I6IFwiYmxhY2tcIiB9fT5cbiAgICAgICAgICAgICAgICAgICAgICAgIHthcnRpY2xlLnRpdGxlLnNwbGl0KFwiLVwiKVswXX1cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgIDwgc3R5bGUganN4ID4ge2BcbiAgICAgICAgICAgICAgICBsaXtcbiAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOjEycHhcbiAgICAgICAgICAgICAgICAgICAgY29sb3I6IFwiYmxhY2tcIlxuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGB9IDwvc3R5bGUgPlxuICAgICAgICA8Lz5cbiAgICApXG5cbn1cbiJdfQ== */\n/*@ sourceURL=/Users/purandrar/Documents/excercise/technicaltest/components/NewsList.js */"));
 }
 
 /***/ }),
@@ -401,7 +691,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
-/* harmony import */ var _NewsCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NewsCard */ "./components/NewsCard.js");
+/* harmony import */ var _NewsList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NewsList */ "./components/NewsList.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_Headline__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Headline */ "./components/Headline.js");
@@ -466,7 +756,7 @@ function NewsSection(props) {
     }
   }, __jsx("ul", {
     style: {
-      padding: "30px"
+      padding: "5px"
     },
     className: "jsx-3354048094",
     __self: this,
@@ -475,7 +765,7 @@ function NewsSection(props) {
       lineNumber: 15,
       columnNumber: 21
     }
-  }, props.articles.map(article => __jsx(_NewsCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, props.articles.map(article => __jsx(_NewsList__WEBPACK_IMPORTED_MODULE_3__["default"], {
     article: article,
     __self: this,
     __source: {
@@ -486,7 +776,7 @@ function NewsSection(props) {
   }))))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3354048094",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9wdXJhbmRyYXIvRG9jdW1lbnRzL2V4Y2VyY2lzZS90ZWNobmljYWx0ZXN0L2NvbXBvbmVudHMvTmV3c1NlY3Rpb24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBcUIyQiIsImZpbGUiOiIvVXNlcnMvcHVyYW5kcmFyL0RvY3VtZW50cy9leGNlcmNpc2UvdGVjaG5pY2FsdGVzdC9jb21wb25lbnRzL05ld3NTZWN0aW9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL2xheW91dCdcbmltcG9ydCBOZXdzQ2FyZCBmcm9tICcuL05ld3NDYXJkJ1xuaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcbmltcG9ydCBIZWFkbGluZSBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRsaW5lJ1xuaW1wb3J0ICdib290c3RyYXAvZGlzdC9jc3MvYm9vdHN0cmFwLm1pbi5jc3MnO1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTmV3c1NlY3Rpb24ocHJvcHMpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8Q29udGFpbmVyPlxuICAgICAgICAgICAgPFJvdz5cbiAgICAgICAgICAgICAgICA8Q29sIGxnPXs4fSBzdHlsZT17eyBkaXNwbGF5OiBcImZsZXhcIiwgYWxpZ25JdGVtczogXCJjZW50ZXJcIiwgcGFkZGluZzogXCIyMHB4XCIgfX0gPlxuICAgICAgICAgICAgICAgICAgICA8SGVhZGxpbmUgaGVhZGxpbmU9e3Byb3BzLmhlYWRsaW5lfSA+PC9IZWFkbGluZT5cbiAgICAgICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgICAgICA8Q29sIGxnPXs0fSBzdHlsZT17eyBkaXNwbGF5OiBcImZsZXhcIiwgYWxpZ25JdGVtczogXCJjZW50ZXJcIiB9fSA+XG4gICAgICAgICAgICAgICAgICAgIDx1bCBzdHlsZT17eyBwYWRkaW5nOiBcIjMwcHhcIiB9fT5cbiAgICAgICAgICAgICAgICAgICAgICAgIHtwcm9wcy5hcnRpY2xlcy5tYXAoYXJ0aWNsZSA9PiAoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPE5ld3NDYXJkIGFydGljbGU9e2FydGljbGV9IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICApKX1cbiAgICAgICAgICAgICAgICAgICAgPC91bD5cbiAgICAgICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgIDwvUm93PlxuICAgICAgICAgICAgPCBzdHlsZSBqc3ggPiB7YFxuICAgICAgICAgICAgICAgXG4gICAgICAgICAgICBgfSA8L3N0eWxlID5cbiAgICAgICAgPC9Db250YWluZXIgPlxuICAgIClcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/purandrar/Documents/excercise/technicaltest/components/NewsSection.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9wdXJhbmRyYXIvRG9jdW1lbnRzL2V4Y2VyY2lzZS90ZWNobmljYWx0ZXN0L2NvbXBvbmVudHMvTmV3c1NlY3Rpb24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBcUIyQiIsImZpbGUiOiIvVXNlcnMvcHVyYW5kcmFyL0RvY3VtZW50cy9leGNlcmNpc2UvdGVjaG5pY2FsdGVzdC9jb21wb25lbnRzL05ld3NTZWN0aW9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL2xheW91dCdcbmltcG9ydCBOZXdzTGlzdCBmcm9tICcuL05ld3NMaXN0J1xuaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcbmltcG9ydCBIZWFkbGluZSBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRsaW5lJ1xuaW1wb3J0ICdib290c3RyYXAvZGlzdC9jc3MvYm9vdHN0cmFwLm1pbi5jc3MnO1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTmV3c1NlY3Rpb24ocHJvcHMpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8Q29udGFpbmVyPlxuICAgICAgICAgICAgPFJvdz5cbiAgICAgICAgICAgICAgICA8Q29sIGxnPXs4fSBzdHlsZT17eyBkaXNwbGF5OiBcImZsZXhcIiwgYWxpZ25JdGVtczogXCJjZW50ZXJcIiwgcGFkZGluZzogXCIyMHB4XCIgfX0gPlxuICAgICAgICAgICAgICAgICAgICA8SGVhZGxpbmUgaGVhZGxpbmU9e3Byb3BzLmhlYWRsaW5lfSA+PC9IZWFkbGluZT5cbiAgICAgICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgICAgICA8Q29sIGxnPXs0fSBzdHlsZT17eyBkaXNwbGF5OiBcImZsZXhcIiwgYWxpZ25JdGVtczogXCJjZW50ZXJcIiB9fSA+XG4gICAgICAgICAgICAgICAgICAgIDx1bCBzdHlsZT17eyBwYWRkaW5nOiBcIjVweFwiIH19PlxuICAgICAgICAgICAgICAgICAgICAgICAge3Byb3BzLmFydGljbGVzLm1hcChhcnRpY2xlID0+IChcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TmV3c0xpc3QgYXJ0aWNsZT17YXJ0aWNsZX0gLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICkpfVxuICAgICAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgIDwvQ29sPlxuICAgICAgICAgICAgPC9Sb3c+XG4gICAgICAgICAgICA8IHN0eWxlIGpzeCA+IHtgXG4gICAgICAgICAgICAgICBcbiAgICAgICAgICAgIGB9IDwvc3R5bGUgPlxuICAgICAgICA8L0NvbnRhaW5lciA+XG4gICAgKVxufVxuIl19 */\n/*@ sourceURL=/Users/purandrar/Documents/excercise/technicaltest/components/NewsSection.js */"));
 }
 
 /***/ }),
@@ -503,12 +793,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
+/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/style.css */ "./styles/style.css");
+/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_style_css__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/purandrar/Documents/excercise/technicaltest/components/layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
+
 const layoutStyle = {
-  border: '1px solid #DDD'
+  border: '1px solid #DDD',
+  backgroundColor: '#EDFCF5'
 };
 
 const Layout = props => __jsx("div", {
@@ -516,17 +812,24 @@ const Layout = props => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8,
+    lineNumber: 10,
     columnNumber: 5
   }
 }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9,
+    lineNumber: 11,
     columnNumber: 9
   }
-}), props.children);
+}), props.children, __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -2222,7 +2525,7 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 /*!************************!*\
   !*** ./pages/index.js ***!
   \************************/
-/*! no exports provided */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2233,8 +2536,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
 /* harmony import */ var _components_NewsSection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/NewsSection */ "./components/NewsSection.js");
+/* harmony import */ var _components_NewsDeck__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/NewsDeck */ "./components/NewsDeck.js");
+/* harmony import */ var _components_NewsCarousel__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/NewsCarousel */ "./components/NewsCarousel.js");
 var _jsxFileName = "/Users/purandrar/Documents/excercise/technicaltest/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
@@ -2244,34 +2551,41 @@ const Index = props => __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_2__["de
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7,
+    lineNumber: 8,
     columnNumber: 5
   }
-}, __jsx(_components_NewsSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  headline: props.headlineUs,
+}, __jsx(_components_NewsCarousel__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  style: {
+    margin: "30px"
+  },
   articles: props.newsUs,
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8,
-    columnNumber: 9
-  }
-}), __jsx(_components_NewsSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  headline: props.headlineId,
-  articles: props.newsId,
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9,
     columnNumber: 9
   }
+}), __jsx(_components_NewsDeck__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  style: {
+    margin: "30px"
+  },
+  articles: props.newsId,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 9
+  }
 }), __jsx(_components_NewsSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  style: {
+    margin: "30px"
+  },
   headline: props.headlineSg,
   articles: props.newsSg,
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10,
+    lineNumber: 11,
     columnNumber: 9
   }
 }));
@@ -2283,18 +2597,30 @@ Index.getInitialProps = async function () {
   const dataId = await resId.json();
   const dataUs = await resUs.json();
   const dataSg = await resSg.json();
-  const newsId = dataId.articles.slice(1, 8);
-  const newsUs = dataUs.articles.slice(1, 8);
+  const newsId = dataId.articles.slice(0, 8);
+  const newsUs = dataUs.articles.slice(0, 8);
   const newsSg = dataSg.articles.slice(1, 8);
   return {
     headlineUs: dataUs.articles[0],
-    headlineId: dataId.articles[0],
     headlineSg: dataSg.articles[0],
     newsUs,
     newsId,
     newsSg
   };
 };
+
+/* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./styles/style.css":
+/*!**************************!*\
+  !*** ./styles/style.css ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
