@@ -12,7 +12,7 @@ export default function footer() {
             <Container>
                 <Row>
                     <Col>
-                        <h1 style={{ height: "100px", display: "flex", alignItems: "center" }}>halo</h1>
+                        <h5 style={{ height: "100px", display: "flex", alignItems: "center" }}>purandra</h5>
                     </Col>
                 </Row>
             </Container>
